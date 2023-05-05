@@ -1,0 +1,74 @@
+name: wehealth
+description: A new Flutter project.
+#
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 50.7.0+98
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.13
+  flutter_screenutil: ^5.3.1
+  fluttertoast: ^8.0.9
+  get: ^4.6.5
+  get_it: ^7.2.0
+  # flutter_facebook_auth: ^5.0.1
+  intl: ^0.18.0
+  path_provider: ^2.0.13
+  device_info_plus: ^8.1.0
+  flutter_native_splash: ^2.2.17
+  flutter_blue_plus: ^1.4.0
+  collection: ^1.17.0
+  wakelock: ^0.6.2
+  path: ^1.8.2
+  file_picker: ^5.2.6
+
+  #MANDAR:
+  logger: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+
+# The following section is specific to Flutter.
+flutter:
+  # the material Icons class.
+  uses-material-design: true
+  
+  #
+  assets:
+    - assets/pdfs/
+    - assets/languages/
+    - assets/flags/
+    - assets/icons/
+    - assets/images/
+    - assets/icons/devices/
+    - assets/icons/devices/new_device/
+    - assets/splashscreen/
+
+  # example:
+  fonts:
+    - family: montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Regular-400.ttf
+    
+    - family: roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf       
+    
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
